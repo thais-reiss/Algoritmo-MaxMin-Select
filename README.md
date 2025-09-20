@@ -58,7 +58,7 @@ Aqui, acontecem as chamadas recursivas:
 min_val = min(arr1[0], arr2[0])
 max_val = max(arr1[1], arr2[1])
 ```
-Com os vetores de cada chamada recursiva retornados, chagou o momento de combinar eles, de forma a encontrar o mínimo e o máximo. Assim, a variável min_val receberá o o valor mínimo, resultante de uma comparação entre os menores valores de arr1 e arr2. Já a variável max_val receberá o valor máximo, resultante de uma comparação entre os maiores valores de arr1 e arr2.
+Com os vetores de cada chamada recursiva retornados, chagou o momento de combinar eles, de forma a encontrar o mínimo e o máximo. Assim, a variável min_val receberá o valor mínimo, resultante de uma comparação entre os menores valores de arr1 e arr2. Já a variável max_val receberá o valor máximo, resultante de uma comparação entre os maiores valores de arr1 e arr2.
 
 ---
 
