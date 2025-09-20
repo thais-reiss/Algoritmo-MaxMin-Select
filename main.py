@@ -4,7 +4,10 @@ def max_min(arr, inicio, fim):
         return [arr[inicio], arr[inicio]]
     
     if fim == inicio + 1:
-        return [min(arr[inicio], arr[fim]), max(arr[inicio], arr[fim])]
+        if arr[inicio] < arr[fim]:
+            return [arr[inicio], arr[fim]]
+        else:
+            return [arr[fim], arr[inicio]]
         
     meio = (inicio + fim) // 2
 
