@@ -21,7 +21,7 @@ def max_min(arr, inicio, fim):
     return [min_val, max_val]
 
 def main():
-    array = [8,1,6,3,7]
+    array = [8,1,6,3,7,15,12]
     resultado = max_min(array, 0, len(array) - 1)
     print(f"Mínimo: {resultado[0]}; Máximo: {resultado[1]}")
 
