@@ -65,4 +65,7 @@ Com os vetores de cada chamada recursiva retornados, chagou o momento de combina
  ```python
   return [min_val, max_val]
 ```
-Aqui, é retornado os valores mínimo e máximo do vetor correspondente.
+Aqui, são retornados os valores mínimo e máximo do vetor correspondente.
+
+---
+
