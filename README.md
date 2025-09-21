@@ -1,6 +1,6 @@
 # Algoritmo de Seleção Simultânea do Maior e do Menor Elementos (MaxMin Select)
  ## O que é este projeto?
- Este projeto apresenta uma implementação em python do algoritmo de Seleção Simultânea do Maior e do Menor Elementos, bem como uma análise da complexidade assintótica pelo método da contagem de operações e também pela aplicação do Teorema Mestre.  
+ Este projeto apresenta uma implementação em python do algoritmo de Seleção Simultânea do Maior e do Menor Elementos, bem como um relatório técnico com uma análise da complexidade assintótica pelo método da contagem de operações e também pela aplicação do Teorema Mestre.  
 
  ## O que é o algoritmo MaxMin Select?
 Este algoritmo é um método para se encontrar o maior e o menor elementos de um conjunto de dados, utilizando a abordagem de dividir e conquistar. 
@@ -69,4 +69,29 @@ Aqui, são retornados os valores mínimo e máximo do vetor correspondente.
 
 ---
 ![Diagrama](assets/diagrama.png)
+
+---
+## Relatório técnico
+
+### Análise da complexidade assintótica pelo Método da Contagem de Operações
+Considerando que *C(n)* representa o número de comparações feitas para processar um array de tamanho *n*:
+
+- *C(1)* = 0 - considerando *n* = 1;
+- *C(2)* = 1 - considerando *n* = 2;
+- *C(n)* = 2C(n/2) + 2 - considerando *n* > 2
+
+Portanto, o número de comparações cresce linearmente com o tamanho da entrada, então a complexidade de tempo é O(n).
+
+### Análise da complexidade assintótica pelo Teorema Mestre
+Considerando a seguinte recorrência do MaxMin Select:
+            𝑇(𝑛) = 2𝑇 (𝑛 / 2) + 𝑂(1)
+
+- *a* = 2
+- *b* = 2
+- *f(n)* = O(1)
+
+Calculando log<sub>b</sub>(a) -> log<sub>2</sub>(2) = 1
+ 
+
+
 
