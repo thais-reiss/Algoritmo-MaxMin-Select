@@ -83,9 +83,9 @@ Considerando que *C(n)* representa o número de comparações feitas para proces
 Portanto, o número de comparações cresce linearmente com o tamanho da entrada, então a complexidade de tempo é O(n).
 
 ### Análise da complexidade assintótica pelo Teorema Mestre
-Considerando a seguinte recorrência do MaxMin Select:
-            𝑇(𝑛) = 2𝑇 (𝑛 / 2) + 𝑂(1)
-
+Considerando a seguinte recorrência do MaxMin Select: <br>
+<p align="center"> 𝑇(𝑛) = 2𝑇 (𝑛 / 2) + 𝑂(1)</p>
+          
 - *a* = 2
 - *b* = 2
 - *f(n)* = O(1)
