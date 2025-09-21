@@ -87,16 +87,20 @@ Portanto, o número de comparações cresce linearmente com o tamanho da entrada
 ### Análise da complexidade assintótica pelo Teorema Mestre
 Considerando a seguinte recorrência do MaxMin Select: <br>
 
- 𝑇(𝑛) = 2𝑇 (𝑛 / 2) + 𝑂(1)   
+ 𝑇(𝑛) = 2𝑇 (𝑛 / 2) + 𝑂(1) 
+
+ Temos que os valores de *a*, *b* e *f(n)*, são:
 - *a* = 2
 - *b* = 2
 - *f(n)* = O(1)
 
 Calculando o log<sub>b</sub>(a) -> log<sub>2</sub>(2) = 1.
+
 Com isso, calculando o custo da recursão, temos:
 O(n<sup>1</sup>) = O(n)
 
 Assim, o custo da recursão é maior que o custo externo: O(n) > O(1). Com isso, o algoritmo se encaixa no Caso 1, onde o custo da recursão domina.
+
 Com isso, a solução assintótica é: <br>
 
 *T(n)* = Θ(n<sup>log<sub>b</sub>a</sup>) <br>
