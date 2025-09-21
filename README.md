@@ -4,7 +4,9 @@
 
  ## O que é o algoritmo MaxMin Select?
 Este algoritmo é um método para se encontrar o maior e o menor elementos de um conjunto de dados, utilizando a abordagem de dividir e conquistar. <br>
+
 Este algoritmo divide um vetor recursivamente em duas partes menores. Em cada divisão, o algoritmo encontra o menor e o maior elementos de cada metade e, depois, combina os resultados, comparando apenas os dois menores e os dois maiores encontrados. A recursão continua até chegar aos casos base, que são vetores de tamanho 1 ou 2. <br>
+
 A vantagen deste método é que ele diminui o número de comparações em relação a encontrar o mínimo e o máximo separadamente ou utilizando uma abordagem iterativa.
 
 ## Como rodar o projeto
