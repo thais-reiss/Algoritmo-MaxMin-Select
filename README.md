@@ -70,6 +70,8 @@ Com os vetores de cada chamada recursiva retornados, chagou o momento de combina
 Aqui, são retornados os valores mínimo e máximo do vetor correspondente.
 
 ---
+## Diagrama que representa as divisões e combinações do algoritmo:
+
 ![Diagrama](assets/diagrama.png)
 
 ---
