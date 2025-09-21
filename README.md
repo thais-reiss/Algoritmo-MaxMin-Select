@@ -89,7 +89,7 @@ Considerando a seguinte recorrência do MaxMin Select: <br>
 
  𝑇(𝑛) = 2𝑇 (𝑛 / 2) + 𝑂(1) 
 
- Temos que os valores de *a*, *b* e *f(n)*, são, respectivamente:
+ Temos que os valores de *a*, *b* e *f(n)* são, respectivamente:
 - *a* = 2
 - *b* = 2
 - *f(n)* = O(1)
