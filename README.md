@@ -96,9 +96,9 @@ O(n<sup>1</sup>) = O(n)
 
 Assim, o custo da recursão é maior que o custo externo: O(n) > O(1). Com isso, o algoritmo se encaixa no Caso 1, onde o custo da recursão domina.
 Com isso, a solução assintótica é:
-*T(n)* = Θ(n<sup>log<sub>b<\sub>a<\sup>)
-*T(n)* = Θ(n<sup>log<sub>2<\sub>2<\sup>)
-*T(n)* = Θ(n<sup>1<\sup>)
+*T(n)* = Θ(n<sup>log<sub>b</sub>a</sup>)
+*T(n)* = Θ(n<sup>log<sub>2</sub>2</sup>)
+*T(n)* = Θ(n<sup>1</sup>)
 *T(n)* = Θ(n)
 
 
